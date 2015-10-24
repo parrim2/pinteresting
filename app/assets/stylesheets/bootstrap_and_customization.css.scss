@@ -3,7 +3,22 @@ $navbar-default-link-color: white;
 $jumbotron-bg: #34495e;
 $jumbotron-color: #E9F2F9;
 $btn-primary-bg: #e74c3c;
+$btn-default-color: #e74c3c;
+$btn-font-weight: bold;
 $body-bg: #ecf0f1;
 $font-family-sans-serif: 'Open Sans Condensed';
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 @import 'bootstrap';
+
+.center{
+	text-align: center;
+}
+
+h1{
+	margin-bottom: 50px;
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
